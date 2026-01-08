@@ -20,8 +20,8 @@ String getBMICategory(double bmi) {
 }
 
 void main() {
-  double weight = double.parse(stdin.readLineSync()!); //in kg
-  double height = double.parse(stdin.readLineSync()!); // in meters
+  double weight = double.parse(stdin.readLineSync()!);    // in kg
+  double height = double.parse(stdin.readLineSync()!);    // in meters
 
   double bmi = calculateBMI(weight, height);
 
